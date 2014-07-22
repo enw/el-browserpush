@@ -1,21 +1,25 @@
 # el-browser-push
 
 ## what is it?
-push a buffer from emacs
+push an emacs buffer.
 view it in a browser
 
 ## how do you use it?
-1. install module in emacs
-```
-(load "~/.emacs.d/)
-```
-2. run server
+1. run server
 ```
 node el-buffer-server.js
 ```
-3. connect to server
+2. view page
 ```
 open http://localhost:8889/
+```
+2. load emacs module
+```
+(load "~/src/EWApps/el-browserpush/el-push-buffer.el")
+```
+4. push this buffer to the server
+```
+M-x el-serve-buffer
 ```
 
 
