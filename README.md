@@ -1,4 +1,4 @@
-# el-share
+# el-browser-push
 
 ## what is it?
 push a buffer from emacs
